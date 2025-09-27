@@ -50,7 +50,7 @@
                   ? `Profit: ${profit} GP`
                   : `Loss: ${Math.abs(profit)} GP`;
             } else {
-              result = '';
+              result = 'Please enter a value item.';
             }
           } else {
             result = 'Please use the first field at least.';
@@ -64,8 +64,8 @@
     </div>
 
     <div>
-      <h2 class="text-2xl font-bold mb-5">Result:</h2>
       {#if result !== ''}
+        <h2 class="text-2xl font-bold mb-5">Result:</h2>
         <!-- <p>Value one: {valueOne}</p>
         <p>Value two: {valueTwo}</p>
         <p>G.E Sale price: {valueSale}</p>
