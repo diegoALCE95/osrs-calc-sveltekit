@@ -1,0 +1,24 @@
+:root {
+  --brown: #1B1612;
+  --lightbrown: #3E362F;
+  --lighterbrown: #736559;
+  --orange: #C2410C;
+  --white: #FFF;
+  --black: #000;
+}
+
+body {
+  font-family: 'PT Serif', sans-serif;
+}
+
+input {
+  border-color: var(--color-base-300);
+}
+
+input::placeholder {
+  color: #ffffffcb;
+}
+
+input:focus {
+  outline-color: var(--color-base-300);
+}
